@@ -1,6 +1,6 @@
 <template>
   <AppLayout
-    ImgBg="/src/assets/img/bg-1.jpg"
+    ImgBg="/src/assets/img/bg.jpg"
     :goBack="removeCocktails"
     :isBackBtnVisible="ingredient"
   >
