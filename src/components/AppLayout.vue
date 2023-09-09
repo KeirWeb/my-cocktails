@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <div class="img" :style="`background-image: url(${ImgBg})`"></div>
+    <div class="img" :style="`background: url(${ImgBg})`"></div>
     <div class="main">
       <div class="btns">
         <el-button
