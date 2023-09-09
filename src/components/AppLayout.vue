@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <div class="img" :style="`background: url(${ImgBg})`"></div>
+    <div class="img"></div>
     <div class="main">
       <div class="btns">
         <el-button
@@ -26,6 +26,7 @@ import { useRouter, useRoute } from "vue-router";
 import { Back } from "@element-plus/icons-vue";
 import { ROUTES_PATHS } from "../constants/index";
 import { computed } from "vue";
+import "../assets/img/bg.jpg";
 
 const router = useRouter();
 const route = useRoute();
@@ -71,6 +72,7 @@ const props = defineProps({
   height: 100vh
   background-color: $background
 .img
+  background-image: url(../assets/img/bg.jpg)
   width: 50%
   background-repeat: no-repeat
   background-size: cover

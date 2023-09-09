@@ -1,9 +1,5 @@
 <template>
-  <AppLayout
-    ImgBg="/src/assets/img/bg.jpg"
-    :goBack="removeCocktails"
-    :isBackBtnVisible="ingredient"
-  >
+  <AppLayout :goBack="removeCocktails" :isBackBtnVisible="ingredient">
     <div class="wrapper">
       <div class="info" v-if="!ingredient">
         <h1 class="title">Choose your drink</h1>
